@@ -1,0 +1,53 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    color: #003057;
+    font-size: 18px;
+}
+h1 {
+    margin-left: 10px;
+}
+header, footer {
+    width: 100%;
+    background-color: #B3A369;
+    display: inline-block;
+}
+
+footer p {
+    text-align: right;
+    padding: 10px;
+}
+
+header ul {
+    margin: 20px;
+    float: right
+}
+
+header ul li {
+    display: inline;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: #003057;
+
+}
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+main h2 {
+    text-align: center;
+}
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+img {
+    justify-self: center;
+    width: 55%;
+    margin-bottom: 10px;
+}
